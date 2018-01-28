@@ -1,13 +1,43 @@
 {
-  "name": "gatsby-remark-katex",
-  "description": "Transform math nodes to html markup",
-  "version": "1.0.10",
-  "author": "Jeffrey Xiao <jeffrey.xiao1998@gmail.com>",
+  "_from": "gatsby-remark-katex",
+  "_id": "gatsby-remark-katex@1.0.10",
+  "_inBundle": false,
+  "_integrity": "sha512-0U44oHL+a9yFsqBzh6ezlsN/V249GpYfAPNvP9bHVBhnLvwXbjA2BKOeFcg7C8gihKMX7NO1Z49bsOXeixOHvQ==",
+  "_location": "/gatsby-remark-katex",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "gatsby-remark-katex",
+    "name": "gatsby-remark-katex",
+    "escapedName": "gatsby-remark-katex",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gatsby-remark-katex/-/gatsby-remark-katex-1.0.10.tgz",
+  "_shasum": "b8816593f48bec189a37de8851514a05783b8b51",
+  "_spec": "gatsby-remark-katex",
+  "_where": "/Users/devkwang/dev/gat/tkatex",
+  "author": {
+    "name": "Jeffrey Xiao",
+    "email": "jeffrey.xiao1998@gmail.com"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "katex": "git+https://github.com/kwangkim/KaTeX.git",
     "remark-math": "^0.2.4",
     "unist-util-visit": "^1.1.1"
+  },
+  "deprecated": false,
+  "description": "Transform math nodes to html markup",
+  "devDependencies": {
+    "cross-env": "^5.0.5"
   },
   "keywords": [
     "gatsby",
@@ -16,13 +46,12 @@
     "katex"
   ],
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "index.js",
+  "name": "gatsby-remark-katex",
   "scripts": {
     "build": "babel src --out-dir . --ignore __tests__",
-    "watch": "babel -w src --out-dir . --ignore __tests__",
-    "prepublish": "cross-env NODE_ENV=production npm run build"
+    "prepublish": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore __tests__"
   },
-  "devDependencies": {
-    "cross-env": "^5.0.5"
-  }
+  "version": "1.0.10"
 }
